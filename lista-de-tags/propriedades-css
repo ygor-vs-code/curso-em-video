@@ -1,0 +1,97 @@
+1. Propriedades de Texto e Fontes
+
+color: Define a cor do texto.
+font-size: Define o tamanho da fonte.
+font-family: Especifica a família da fonte (e.g., Arial, Helvetica).
+font-weight: Controla o peso da fonte (normal, bold, lighter, etc.).
+font-style: Define o estilo da fonte (normal, italic, oblique).
+line-height: Define o espaçamento entre as linhas.
+letter-spacing: Controla o espaçamento entre letras.
+word-spacing: Controla o espaçamento entre palavras.
+text-align: Alinha o texto (left, right, center, justify).
+text-decoration: Adiciona decoração ao texto (underline, overline, line-through).
+text-transform: Controla a capitalização (uppercase, lowercase, capitalize).
+white-space: Define como o texto lida com espaços em branco e quebras de linha.
+direction: Define a direção do texto (ltr - da esquerda para a direita, rtl - da direita para a esquerda).
+
+2. Propriedades de Fundo (Background)
+
+background-color: Define a cor de fundo de um elemento.
+background-image: Define uma imagem de fundo.
+background-repeat: Controla se o fundo se repete (repeat, no-repeat, repeat-x, repeat-y).
+background-position: Define a posição da imagem de fundo.
+background-size: Ajusta o tamanho da imagem de fundo (cover, contain, ou valores específicos).
+background-attachment: Define se o fundo é fixo ou se move com a rolagem (scroll, fixed).
+background-clip: Define a área onde o fundo é exibido (content-box, padding-box, border-box).
+
+3. Propriedades de Bordas (Borders)
+
+border: Atalho para definir largura, estilo e cor da borda.
+border-width: Define a largura da borda.
+border-style: Define o estilo da borda (solid, dotted, dashed, none).
+border-color: Define a cor da borda.
+border-radius: Define os cantos arredondados.
+border-top, border-right, border-bottom, border-left: Define bordas específicas de cada lado.
+outline: Semelhante ao border, mas não ocupa espaço na caixa do elemento.
+outline-color, outline-width, outline-style: Configurações específicas de outline.
+
+4. Propriedades de Espaçamento
+
+margin: Define a margem externa ao redor de um elemento.
+margin-top, margin-right, margin-bottom, margin-left: Especifica margens individuais.
+padding: Define o espaçamento interno de um elemento.
+padding-top, padding-right, padding-bottom, padding-left: Especifica espaçamentos individuais.
+
+5. Propriedades de Dimensões
+
+width: Define a largura de um elemento.
+height: Define a altura de um elemento.
+min-width / min-height: Define a largura/altura mínima.
+max-width / max-height: Define a largura/altura máxima.
+
+6. Propriedades de Flexbox
+
+display: Define o comportamento de exibição de um elemento (block, inline, flex, grid).
+flex: Define o fator de crescimento, encolhimento e tamanho base de um item flex.
+flex-direction: Define a direção do conteúdo (row, column, etc.).
+justify-content: Alinha os itens ao longo do eixo principal (start, center, space-between, etc.).
+align-items: Alinha os itens ao longo do eixo cruzado (stretch, center, baseline).
+align-content: Alinha múltiplas linhas (se houver) no eixo cruzado.
+gap: Define o espaçamento entre itens em um contêiner flex ou grid.
+
+7. Propriedades de Grid
+
+grid-template-rows / grid-template-columns: Define o layout das linhas e colunas.
+grid-gap / gap: Espaçamento entre linhas e colunas.
+grid-area: Define o posicionamento de um item dentro do grid.
+place-items: Atalho para alinhar itens no grid.
+grid-auto-rows / grid-auto-columns: Define tamanhos automáticos para linhas/colunas adicionais.
+
+8. Propriedades de Posição
+
+position: Define o método de posicionamento (static, relative, absolute, fixed, sticky).
+top, right, bottom, left: Define o deslocamento de um elemento posicionado.
+z-index: Define a ordem de empilhamento de elementos (quem fica na frente ou atrás).
+
+9. Propriedades de Exibição
+
+display: Controla como o elemento é exibido (block, inline, none, etc.).
+visibility: Define a visibilidade do elemento (visible, hidden).
+overflow: Controla como o conteúdo que excede os limites é tratado (visible, hidden, scroll, auto).
+
+10. Propriedades de Transições e Animações
+
+transition: Define as propriedades animadas, a duração e o tipo de transição.
+animation: Define uma animação com keyframes.
+animation-name: Nome da animação definida nos keyframes.
+animation-duration: Duração da animação.
+animation-timing-function: Define a curva de velocidade (ease, linear, ease-in, etc.).
+animation-delay: Define o atraso antes de iniciar.
+
+11. Propriedades de Miscellaneous
+
+box-shadow: Adiciona uma sombra ao redor do elemento.
+opacity: Define a opacidade (transparência) do elemento.
+cursor: Altera o tipo de cursor (pointer, default, text, etc.).
+clip-path: Define uma área visível personalizada para o elemento.
+filter: Aplica efeitos gráficos, como blur ou brilho.

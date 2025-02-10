@@ -1,0 +1,94 @@
+:root {
+    --cor1: #202124;
+    --cor2: #5F6368;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+
+* {
+    font-family: var(--fonte-padrao);
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+header {
+    display: flex;
+    justify-self: end;
+    align-items: center;
+    padding-top: 10px;
+}
+
+header > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin: 13px;
+}
+
+.fa-bars {
+    font-size: 30px;
+}
+
+#ygor {
+    position: relative;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+
+main {
+    justify-items: center;
+    margin: auto;
+}
+
+main #pesquisa {
+    color: rgb(140, 140, 140);
+    background-color: var(--cor2);
+    border-radius: 30px;
+}
+
+main #box-pesquisa {
+    width: 400px;
+    height: 35px;
+    background-color: var(--cor2);
+    border-style: none;
+    padding-left: 10px;
+}
+
+#buttons {
+    margin-top: 35px;
+}
+
+#buttons button {
+    background-color: #303236;
+    border-color: transparent;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+#buttons button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#p {
+    color: white;
+    background-color: #121314;
+    padding: 15px;
+    margin-bottom: 2px;
+}
+
+nav {
+    display: flex;
+    background-color: #121314;
+}
+
+nav > #ul-one {
+    
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com midia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Este é meu site de teste com mídia</h1>
+    </header>
+    <h2>Imagem Responsiva</h2>
+    <picture>
+        <source media="(max-width: 450px)" srcset="imagens/aviao-tamanho-200.jpg" type="image/jpeg">
+        <source media="(max-width: 650px)" srcset="imagens/aviao-tamanho-400.jpg" type="image/jpeg">
+        <source media="(max-width: 850px)" srcset="imagens/aviao-tamanho-600.jpg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/aviao-tamanho-800.jpg" type="image/jpeg">
+        <img src="imagens/aviao-tamanho-1000.jpg" alt="Avião">
+    </picture>
+    
+    <p>
+        Pág 1 <a href="pagina2.html" target="_self" rel="next">2</a> <a href="pagina3.html" target="_self" rel="next">3</a>
+    </p>
+
+</body>
+</html>

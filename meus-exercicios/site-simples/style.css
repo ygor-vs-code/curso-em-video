@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgb(198, 198, 198);
+}
+
+.back {
+    background-color: white;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+    margin: 30px 30px;
+    padding: 10px 10px;
+    max-width: 600px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507);
+}
+
+.navbar nav {
+    position: relative;
+    right: 110px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.a {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.home {
+    color: rgb(255, 151, 33);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.home:hover {
+    color: black;
+}
+
+.a:hover {
+    color: rgb(255, 151, 33);
+}
+
+.buttons {
+    position: relative;
+    align-items: end;
+    justify-items: end;
+    left: 185px;
+    top: -47px;
+}
+
+.buttons ul {
+    display: flex;
+    list-style: none;
+}
+
+.buttons ul li {
+    margin-right: 10px;
+}
+
+.buttons ul li button {
+    border-radius: 200px;
+
+    border-color: rgba(0, 0, 0, 0.258);
+    border-style: double;
+}
+
+.buttons ul li button img {
+    height: 25px;
+}
+
+.bb {
+    cursor: pointer;
+}
+
+.store {
+    background-color: rgb(255, 151, 33);
+}
+
+.b:hover {
+    background-color: rgb(255, 151, 33);
+}
+
+.store:hover {
+    background-color: white;
+}
+
+.main-box {
+    margin-left: 30px;
+    margin-right: 100px;
+    line-height: 70px;
+}
+
+.main-box h2 {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.467);
+    margin-bottom: -60px;
+}
+
+.main-box h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.croissant-box {
+    position: relative;
+    top: -90px;
+}
+
+.buttondown {
+    position: relative;
+    bottom: 100px;
+    right: 108px;
+}
+
+.oder {
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-items: center;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 8px 30px;
+    cursor: pointer;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.379);
+}
+
+.oder:hover {
+    color: rgb(182, 182, 182);
+}
+
+.reservation {
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: rgba(0, 0, 0, 0.347);
+    border-style: groove;
+    padding: 8px 30px;
+    left: 217px;
+    cursor: pointer;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.379);
+}
+
+.reservation:hover {
+    background-color: rgb(182, 182, 182);
+}

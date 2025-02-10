@@ -1,0 +1,125 @@
+Estruturais e Semânticas
+
+<html>: Define o documento HTML.
+<head>: Contém metadados sobre o documento.
+<title>: Define o título da página (mostrado na aba do navegador).
+<body>: Contém o conteúdo principal da página.
+<header>: Cabeçalho de uma seção ou página.
+<nav>: Links de navegação.
+<main>: Conteúdo principal da página.
+<section>: Agrupa conteúdo temático.
+<article>: Representa conteúdo independente (ex.: artigo).
+<aside>: Conteúdo relacionado, como barras laterais.
+<footer>: Rodapé de uma seção ou página.
+<address>: Informações de contato.
+<h1> a <h6>: Títulos de diferentes níveis hierárquicos.
+
+Texto e Formatação
+
+<p>: Parágrafo.
+<br>: Quebra de linha.
+<hr>: Linha horizontal (separador).
+<pre>: Texto pré-formatado.
+<blockquote>: Citação em bloco.
+<cite>: Citação de uma fonte.
+<q>: Citação curta.
+<abbr>: Abreviação.
+<acronym>: Siglas (obsoleto, use <abbr>).
+<b>: Texto em negrito (sem significado semântico).
+<strong>: Indica ênfase forte (negrito com semântica).
+<i>: Texto em itálico (sem significado semântico).
+<em>: Texto enfatizado (itálico com semântica).
+<mark>: Texto destacado.
+<small>: Texto menor ou menos importante.
+<sub>: Texto subscrito.
+<sup>: Texto sobrescrito.
+<ins>: Texto inserido.
+<del>: Texto deletado.
+<code>: Trechos de código.
+<kbd>: Entrada do teclado.
+<samp>: Saída de programa ou código.
+<var>: Representa uma variável.
+<span>: Contêiner genérico em linha.
+<bdi>: Isola um texto para direções de escrita.
+<bdo>: Sobrescreve a direção do texto.
+<wbr>: Sugere uma quebra de linha.
+
+Mídia e Imagens
+
+<img>: Inserir imagens.
+<figure>: Contêiner para conteúdo gráfico.
+<figcaption>: Legenda de uma imagem ou gráfico.
+<audio>: Inserir áudio.
+<video>: Inserir vídeo.
+<source>: Fonte para <audio> ou <video>.
+<track>: Legendas para vídeos.
+<embed>: Incorporar conteúdo externo.
+<iframe>: Incorporar outra página HTML.
+<canvas>: Desenhos gráficos com JavaScript.
+<svg>: Gráficos vetoriais escaláveis.
+
+Tabelas
+
+<table>: Define uma tabela.
+<caption>: Legenda para uma tabela.
+<thead>: Cabeçalho da tabela.
+<tbody>: Corpo da tabela.
+<tfoot>: Rodapé da tabela.
+<tr>: Linha da tabela.
+<th>: Célula de cabeçalho.
+<td>: Célula de dados.
+<col>: Define colunas em tabelas.
+<colgroup>: Agrupa colunas em tabelas.
+
+Formulários e Inputs
+
+<form>: Define um formulário.
+<input>: Campo de entrada de dados.
+<textarea>: Campo de texto longo.
+<button>: Botão clicável.
+<label>: Rótulo para entrada.
+<fieldset>: Agrupa elementos de formulário.
+<legend>: Título para <fieldset>.
+<select>: Caixa de seleção.
+<option>: Opções dentro de <select>.
+<optgroup>: Agrupa opções dentro de <select>.
+<datalist>: Lista de opções para <input>.
+<output>: Resultado calculado.
+<progress>: Barra de progresso.
+<meter>: Indicador de medida.
+<keygen>: Geração de pares de chaves (obsoleto).
+
+Links e Navegação
+
+<a>: Hiperlink.
+<link>: Relaciona o documento a recursos externos.
+<nav>: Bloco de links de navegação.
+
+Listas
+
+<ul>: Lista não ordenada.
+<ol>: Lista ordenada.
+<li>: Item de lista.
+<dl>: Lista de definição.
+<dt>: Título de definição.
+<dd>: Descrição de definição.
+
+Metadados e Scripts
+
+<meta>: Metadados sobre o documento.
+<style>: Estilos CSS embutidos.
+<script>: Código JavaScript.
+<noscript>: Conteúdo alternativo se JavaScript estiver desativado.
+<template>: Modelo reutilizável de conteúdo.
+<slot>: Contêiner para inserção de conteúdo personalizado (usado com Web Components).
+
+Outras Tags Importantes
+
+<details>: Seção expansível.
+<summary>: Resumo de <details>.
+<dialog>: Caixa de diálogo.
+<data>: Representa valores de dados legíveis por máquinas.
+<time>: Data ou hora.
+<base>: Define a URL base para links relativos.
+<area>: Define áreas em um mapa de imagem.
+<map>: Define um mapa de imagem.

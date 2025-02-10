@@ -1,0 +1,56 @@
+*{
+    color: #134074, #13315C, #F5E5FC, #0B2545, #EF3E36;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #F5E5FC, #134074);
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #0B2545;
+    color: #F5E5FC;
+    max-width:300px;
+    position: relative;
+    height: 80px;
+    left: 150px;
+    border-radius: 10px;
+
+}
+.titulo{
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+.nave{
+    background-color: #EF3E36;
+    max-width: 400px;
+    position: relative;
+    left: 100px;
+    top: -10px;
+    border-radius: 10px;
+}
+.nave ul{
+    list-style: none;
+}
+.sobre{
+    text-align: center;
+    position: relative;
+    top:40px;
+    left: -150px;
+}
+.projetos{
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+.ajuda{
+    text-align: center;
+    position: relative;
+    top: -10px;
+    left: 100px;
+}
+footer{
+}
