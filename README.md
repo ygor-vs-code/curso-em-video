@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://ygor-vs-code.github.io/curso-em-video/html-css/desafios/desafio010/android.html"> Executar o desafio010 de html-css
+<a href="https://ygor-vs-code.github.io/curso-em-video/html-css/desafios/desafio010/android.html" target="_blank"> Executar o desafio010 de html-css
