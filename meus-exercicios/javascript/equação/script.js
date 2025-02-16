@@ -30,7 +30,7 @@ if (delt < 0)
     {
         res.innerHTML = 'O delta é menor que 0'
 } else{
-    res.innerHTML = `S= {${x1}, ${x2}}`
+    res.innerHTML = `S= {${x1.toFixed(2)}, ${x2.toFixed(2)}}`
 }
 
 

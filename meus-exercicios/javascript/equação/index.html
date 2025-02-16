@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equação do 2º grau</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Calcular Equação do 2º Grau:</h1>
-    <div id="buttons">
-        A: <input type="number" name="a" id="a">
-        B: <input type="number" name="b" id="b">
-        C: <input type="number" name="c" id="c">
-        <input type="button" value="Calcular" onclick="calcular()">
-    </div>
-    <div id="res">
-
+    <div id="back">
+        <h1>Calcular Equação do 2º Grau</h1>
+        <h2>Digite os valores de:</h2>
+        <div id="buttons">
+            <h3>A</h3>
+            <input type="number" value="0" name="a" id="a">
+            <h3>B</h3>
+            <input type="number" value="0" name="b" id="b">
+            <h3>C</h3>
+            <input type="number" value="0" name="c" id="c">
+            <div id="resultado">
+                <div id="res">
+                </div>
+                <input type="button" value="Calcular" onclick="calcular()">
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
