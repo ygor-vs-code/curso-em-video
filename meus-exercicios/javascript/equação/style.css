@@ -16,6 +16,18 @@ body {
     height: 100vh;
 }
 
+p {
+    font-size: 14px;
+}
+
+p a {
+    color: white !important;
+}
+
+p a:hover {
+    color: #000000 !important;
+}
+
 #back {
     background: rgba(255, 255, 255, 0.1);
     padding: 30px;
