@@ -6,16 +6,19 @@
     font-family: "PT Serif", serif;
 }
 
+body {
+    background-image: url('https://c.pxhere.com/photos/7e/45/camera_canon_girl_lens_person_taking_photo_woman-1169775.jpg!d');
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    background-position: top left;
+}
+
 #back {
     background-color: lightyellow;
 }
 
 .button-h {
     border-style: none;
-}
-
-.button-h img {
-    amix-blend-mode: difference;
 }
 
 #back-header img { 
