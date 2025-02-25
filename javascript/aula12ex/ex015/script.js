@@ -16,11 +16,11 @@ function verificar() {
 
         if (fsex[0].checked) {
             genero = 'Homem'
-            if (idade >=0 && idade < 10){
+            if (idade >= 0 && idade < 10) {
                 //Criança
                 img.setAttribute('src', 'assets/homem-bebe.jpg')
             }
-            else if(idade < 21) {
+            else if (idade < 21) {
                 //Jovem
                 img.setAttribute('src', 'assets/homem-jovem.jpg')
             }
@@ -35,11 +35,11 @@ function verificar() {
         }
         else {
             genero = 'Mulher'
-            if (idade >=0 && idade < 10){
+            if (idade >= 0 && idade < 10) {
                 //Criança
                 img.setAttribute('src', 'assets/mulher-bebe.jpg')
             }
-            else if(idade < 21) {
+            else if (idade < 21) {
                 //Jovem
                 img.setAttribute('src', 'assets/mulher-jovem.jpg')
             }
