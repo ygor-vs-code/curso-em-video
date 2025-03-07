@@ -1,7 +1,0 @@
-body {
-    background-image: url('imagem');
-    background-size: cover;
-}
-
-
-/* O valor cover vai cobrir a tela inteira com a imagem, mesmo que para isso ele tenha que cortar a imagem.*/
