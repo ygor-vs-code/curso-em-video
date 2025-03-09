@@ -13,7 +13,7 @@ function calcular() {
     }
 
     if (inicio < fim) {
-        for (num = inicio; num <= fim; num += passo) {
+        for (let num = inicio; num <= fim; num += passo) {
             res.innerHTML += `${num} => `
         }
     }
