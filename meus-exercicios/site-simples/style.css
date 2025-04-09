@@ -39,12 +39,14 @@ body {
     color: rgb(0, 0, 0);
     font-weight: 500;
     text-decoration: none;
+    transition: 0.2s ease-in-out;
 }
 
 .home {
     color: rgb(255, 151, 33);
     text-decoration: none;
     font-weight: 500;
+    transition: 0.2s ease-in-out;
 }
 
 .home:hover {
@@ -77,6 +79,7 @@ body {
 
     border-color: rgba(0, 0, 0, 0.258);
     border-style: double;
+    transition: 0.15s ease-in-out;
 }
 
 .buttons ul li button img {
