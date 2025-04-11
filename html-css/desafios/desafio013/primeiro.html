@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio013</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            justify-items: center;
+            align-content: center;
+        }
+
+        td {
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 30px 60px;
+            text-align: center;
+        }
+
+        .td {
+            transition: ease-in-out 0.3s;
+        }
+
+        .td:hover {
+            transform: scale(150%);
+            border-radius: 20px;
+            background-color: rgba(128, 128, 128, 0.466);
+            box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.468);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="td">1</td>
+            <td class="td">2</td>
+            <td class="td" rowspan="2">3</td>
+            <td class="td">4</td>
+        </tr>
+        <tr>
+            <td class="td">5</td>
+            <td class="td">6</td>
+            <td class="td">7</td>
+        </tr>
+        <tr>
+            <td class="td" colspan="3">8</td>
+            <td class="td">9</td>
+        </tr>
+        <tr>
+            <td class="td" rowspan="2">10</td>
+            <td class="td" colspan="2">11</td>
+            <td class="td">12</td>     
+        </tr>
+        <tr>
+            <td class="td">13</td>
+            <td class="td">14</td>
+            <td class="td">15</td>
+        </tr>
+    </table>
+</body>
+</html>
