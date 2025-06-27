@@ -1,1 +1,1 @@
-asda
+print('Olá, mundo!')
